@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52CD00361D6A6DC70034F31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CD00351D6A6DC70034F31A /* main.m */; };
+		52CD003E1D6A76C40034F31A /* classImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CD003D1D6A76C40034F31A /* classImplementation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		52CD00321D6A6DC70034F31A /* RPGgame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RPGgame; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CD00351D6A6DC70034F31A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52CD003C1D6A6DE60034F31A /* PlayerClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerClass.h; sourceTree = "<group>"; };
+		52CD003D1D6A76C40034F31A /* classImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = classImplementation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		52CD00291D6A6DC70034F31A = {
 			isa = PBXGroup;
 			children = (
+				52CD003C1D6A6DE60034F31A /* PlayerClass.h */,
+				52CD003D1D6A76C40034F31A /* classImplementation.m */,
 				52CD00341D6A6DC70034F31A /* RPGgame */,
 				52CD00331D6A6DC70034F31A /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CD003E1D6A76C40034F31A /* classImplementation.m in Sources */,
 				52CD00361D6A6DC70034F31A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
